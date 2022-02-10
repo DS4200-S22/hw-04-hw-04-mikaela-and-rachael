@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+}
+
+.centered{
+    text-align: center;
+}
+
+.line-of-shapes{
+	display:  flex;
+	justify-content: space-evenly;
+}
+
+#circle1{
+    fill: #9ddbee;
+    stroke: black;
+    stroke-width: 7;
+}
+
+#circle1count{
+    text-anchor: middle;
+    stroke: black;
+}
+
+#circle2{
+    fill: #9deeb5;
+}
+
+#circle3{
+    fill: #de9dee;
+}
