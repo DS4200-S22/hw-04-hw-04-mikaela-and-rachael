@@ -26,6 +26,16 @@ body {
     fill: #9deeb5;
 }
 
+#circle2:hover{
+    fill: #9deeb5;
+    stroke: black;
+    stroke-width: 7;
+}
+
 #circle3{
     fill: #de9dee;
+    stroke: black;
+    stroke-width: 7;
+    opacity: 1;
 }
+

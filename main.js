@@ -13,4 +13,14 @@ function circle3Clicked() {
      * Clicking on the blank space the svg was in should un-hide the svg from the page. 
      * Hint: think about setting opacity in your css to show or hide the circle
      */
+
+    const curOpacity = document.getElementById("circle3").style.opacity;
+
+    if (curOpacity == 0) {
+        document.getElementById("circle3").style.opacity = 1;
+    }    else {
+         document.getElementById("circle3").style.opacity = 0;
+    }
+
+
 }
